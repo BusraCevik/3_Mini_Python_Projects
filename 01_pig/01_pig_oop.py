@@ -55,7 +55,7 @@ class DiceGame:
             for i in range(self.players):
                 self.play_turn(i)
                 if self.player_scores[i] >= self.max_score:
-                    print(f"\n🏆 Player {i + 1} wins with a score of {self.player_scores[i]}!")
+                    print(f"\n Player {i + 1} wins with a score of {self.player_scores[i]}!")
                     return
 
 
