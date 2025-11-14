@@ -11,7 +11,7 @@
 import random
 import time
 
-class Timed_math:
+class TimedMathChallenge:
     def __init__(self):
         self.OPERATORS  = ["+", "-", "*"]
         self.OPERAND_MIN = 2
@@ -61,5 +61,5 @@ class Timed_math:
         print(f"Your score: {self.score}/{self.TOTAL_PROBLEMS}")
 
 if __name__ == "__main__":
-    problem =  timed_math()
+    problem =  TimedMathChallenge()
     problem.play()
