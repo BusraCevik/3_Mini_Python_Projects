@@ -1,3 +1,13 @@
+# The first version was made by following a tutorial; the OOP version was implemented by me.
+# Timed Math Challenge - OOP Version
+# The timed_math class encapsulates the logic for a timed math quiz game.
+# __init__(): Initializes operators, operand range, total number of problems, and other attributes.
+# problem_generator(): Generates a random math problem and computes its answer.
+# timer(): Returns the current timestamp to measure elapsed time.
+# play(): Main game loop. Presents problems to the user, checks answers,
+#   awards 1 point for each correct first attempt, and tracks total time.
+# Input validation is handled by checking answers, and the final score and total time
+#   are displayed at the end of the game.
 import random
 import time
 

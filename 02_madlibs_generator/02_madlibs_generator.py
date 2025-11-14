@@ -1,3 +1,10 @@
+# Mad Libs Game in Python
+# This script reads a story from a file and allows the user to fill in blanks.
+# Words in the story that are surrounded by '<' and '>' are treated as placeholders.
+# The program collects all unique placeholders, prompts the user to enter replacement words,
+# and then generates the final story with the user's inputs.
+# The game demonstrates file handling, string manipulation, loops, and user input in Python.
+
 with open("story", "r") as f:
     story = f.read()
 

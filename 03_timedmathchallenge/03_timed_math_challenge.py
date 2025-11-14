@@ -1,3 +1,12 @@
+# Timed Math Challenge - Procedural Version
+# This script generates simple math problems for the user to solve under a timed session.
+# OPERATORS: List of mathematical operators used in problems.
+# MIN_OPERAND, MAX_OPERAND: Define the range of numbers used in the problems.
+# TOTAL_PROBLEMS: Number of math problems in one session.
+# generate_problem(): Creates a random math problem and computes the correct answer.
+# User input is compared with the correct answer; wrong attempts are counted.
+# The total time taken to solve all problems is measured and displayed.
+# Demonstrates use of random number generation, loops, input validation, and timing in Python.
 import random
 import time
 

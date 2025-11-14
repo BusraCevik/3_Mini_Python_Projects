@@ -1,3 +1,11 @@
+# Pig Dice Game in Python
+# This game allows 2-4 players to take turns rolling a die.
+# Players can keep rolling to accumulate points in their turn.
+# Rolling a 1 resets the turn score to 0 and passes the turn to the next player.
+# Each player's total score is tracked, and the first to reach 50 points wins.
+# The 'roll()' function simulates a die roll between 1 and 6.
+# Input validation ensures correct number of players and turn choices.
+
 import random
 
 def roll():

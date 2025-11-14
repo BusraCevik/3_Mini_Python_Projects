@@ -1,4 +1,16 @@
 # The first version was made by following a tutorial; the OOP version was implemented by me.
+# Pig Dice Game - OOP Version
+# The DiceGame class handles the entire game logic for 2-4 players.
+# __init__(): Initializes the game with maximum score, number of players, and player scores.
+# get_number_of_players(): Prompts the user for the number of players and validates input.
+# roll_dice(): Returns a random integer between 1 and 6, simulating a dice roll.
+# play_turn(player_index): Handles a single player's turn, including dice rolls,
+#   accumulating turn score, handling rolling a 1, and updating total scores.
+# play(): Main game loop. Each player takes turns until someone reaches max_score,
+#   declaring the winner at the end.
+# The game uses input validation to ensure correct choices and displays current scores
+#   after each turn.
+
 import random
 
 class DiceGame:
