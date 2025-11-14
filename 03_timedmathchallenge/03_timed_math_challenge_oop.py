@@ -11,7 +11,7 @@
 import random
 import time
 
-class timed_math:
+class Timed_math:
     def __init__(self):
         self.OPERATORS  = ["+", "-", "*"]
         self.OPERAND_MIN = 2
